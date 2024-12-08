@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/addVehicle"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="Add Vehicle" />
+        <item
+            android:id="@+id/view"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/viewVehicle"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="View Vehicle" />
+        <item
+            android:id="@+id/History"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"
+            android:title="History" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Help"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Help" />
+            <item
+                android:id="@+id/Logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
